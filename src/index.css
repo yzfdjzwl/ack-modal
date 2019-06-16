@@ -1,0 +1,40 @@
+.ack-mask {
+    background: red;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.ack-modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.ack-modal-header {
+    height: 30px;
+    line-height: 30px;
+}
+
+.ack-modal-body {
+    margin-top: 20px;
+}
+
+.ack-modal-footer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
